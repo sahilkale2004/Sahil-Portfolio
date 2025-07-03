@@ -12,16 +12,13 @@ Key features include:
 
 This project was created to practice web development fundamentals while building a professional online presence.
 
----
 ## 💻 Tech Stack
 - 🚀 HTML5  
 - 🎨 CSS  
 - ⚙️ JavaScript
----
 
 ## 🔗 Live Preview
-- Link🔗: 
----
+- Link🔗: https://sahilkale2004.github.io/Sahil-Portfolio/
 
 ## 📬 Contact
 - ✉️ Email: sahilkalegdsc@gmail.com

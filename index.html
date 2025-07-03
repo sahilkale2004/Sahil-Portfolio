@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahil Kale | Full Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Sahil Kale</h1>
+      <ul class="nav-links">
+        <li><a href="#about" class="btn secondary">About</a></li>
+        <li><a href="#skills" class="btn secondary">Skills</a></li>
+        <li><a href="#projects" class="btn secondary">Projects</a></li>
+        <li><a href="#contact" class="btn secondary">Contact</a></li>
+        <li><a href="#resume" class="btn secondary">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h2>🚀 Developer. Problem-Solver. Tech Explorer.</h2>
+      <p>Crafting AI-powered tools, APIs, and backend magic—one line of code at a time.</p>
+      <img src="sahil.jpg" alt="Sahil Kale" class="profile-pic" />
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>👋 About Me</h2>
+      <p>Hi! I’m Sahil, a full-stack developer with a flair for Flask microservices, scalable APIs, and integrating AI into real-world apps. I’ve worked on accessible tech, event platforms, and creative image generators—and I’m just getting started.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>🧠 Skills</h2>
+      <ul class="skills-grid">
+        <li>Java & Servlets</li>
+        <li>Flask & Python</li>
+        <li>MongoDB / MySQL</li>
+        <li>React.js</li>
+        <li>API Integration</li>
+        <li>AI Automation</li>
+        <li>Power BI</li>
+        <li>Blockchain (Exploring)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2>💼 Projects</h2>
+      <div class="project-grid">
+        <a href="https://github.com/sahilkale2004/Flatmate" target="_blank" rel="noopener noreferrer">
+        <div class="project-card">
+          <h3 style="color: #00bcd4;">Flatmate</h3>
+          <p>Student-focused roommate matching platform using clustering algorithms, academic filters, and Razorpay-backed premium features for secure, tailored connections.</p>
+        </div>
+        </a>
+
+        <a href="https://github.com/sahilkale2004/intelliFlow" target="_blank" rel="noopener noreferrer">
+        <div class="project-card">
+          <h3 style="color: #00bcd4;">IntelliFlow</h3>
+          <p>Full-stack event platform for college events management with smart sponsor matching, speaker selection, and sentiment analysis.</p>
+        </div>
+        </a>
+
+        <a href="https://github.com/sahilkale2004/Pymail---Desktop-client" target="_blank" rel="noopener noreferrer">
+        <div class="project-card">
+          <h3 style="color: #00bcd4;">Pymail</h3>
+          <p>Automated email dispatch platform integrating Python and pandas for MySQL-based campaign execution with error-free delivery and scalable outreach.</p>
+        </div>
+        </a>
+
+        <a href="https://github.com/sahilkale2004/FreeImage-AI-free-image-generator" target="_blank" rel="noopener noreferrer">
+        <div class="project-card">
+        <h3 style="color: #00bcd4;">Freemage</h3>
+        <p>Gemini-powered image generation platform with real-time rendering, secure API integration, and cinematic prompt control for effortless visual creation.</p>
+        </div>
+        </a>
+
+        </https:>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <div class="container">
+      <h2>📄 My Resume</h2>
+      <div class="resume-wrapper">
+        <iframe src="resume.pdf" width="100%" height="600px" title="Sahil Kale Resume"></iframe>
+        <div class="resume-download">
+          <a href="resume.pdf" class="btn secondary" download>Download Resume PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+  <div class="container">
+    <h2>📬 Let’s Connect</h2>
+
+    <form class="contact-form" action="https://formsubmit.co/sahilkalegdsc@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New message from Sahil Kale portfolio">
+      <input type="hidden" name="_template" value="table">
+
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn secondary">Send Message</button>
+    </form>
+
+    <div class="linkedin-icon">
+      <a href="https://www.linkedin.com/in/sahil-kale-235066345" target="_blank">
+        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+ 
+
+  <footer>
+    <div class="container">
+      <p style="position: relative;right: -500px;">© 2025 Sahil Kale.</p>
+      <div class="socials">
+        <a href="mailto:sahilkalegdsc@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/sahil-kale-235066345"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = e.target.querySelector('input[type="text"]').value.trim();
+    const email = e.target.querySelector('input[type="email"]').value.trim();
+    const message = e.target.querySelector('textarea').value.trim();
+
+    if (!name || !email || !message) {
+      alert("Please fill in all fields before sending.");
+      return;
+    }
+
+    console.log("Name:", name);
+    console.log("Email:", email);
+    console.log("Message:", message);
+
+    alert("✅ Your message was sent (placeholder logic).");
+
+    e.target.reset();
+  });
+</script>
+
+</body>
+</html>
